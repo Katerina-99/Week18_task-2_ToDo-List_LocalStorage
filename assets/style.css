@@ -39,8 +39,15 @@ h3 {
 
 #clearBtn {
   align-self: flex-end;
+  margin-top: 5px;
 }
 
 button {
   padding: 5px 10px;
+}
+
+li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
